@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp" 
+        android:orientation="horizontal">
+        
+	    <com.lee.wheel.widget.WheelView
+	        android:id="@+id/wheel_date"
+	        android:layout_width="70dp"
+	        android:layout_height="300dp"/>
+	        
+	    <com.lee.wheel.widget.WheelView
+	        android:id="@+id/wheel_month"
+	        android:layout_width="130dp"
+	        android:layout_height="300dp"
+	        android:layout_marginLeft="2dp"/>
+	  
+	    <com.lee.wheel.widget.WheelView
+	        android:id="@+id/wheel_year"
+	        android:layout_width="70dp"
+	        android:layout_height="300dp"
+	        android:layout_marginLeft="2dp"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="2dp" >
+        
+        <Button 
+            android:id="@+id/btn_now"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Now"/>
+        
+	    <TextView 
+	        android:id="@+id/sel_date"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="24sp"/>
+    </LinearLayout>
+</LinearLayout>
