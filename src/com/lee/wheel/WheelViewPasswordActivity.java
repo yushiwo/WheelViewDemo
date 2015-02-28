@@ -108,6 +108,11 @@ public class WheelViewPasswordActivity extends Activity {
         mTextView.setText(text);
     }
 
+    /**
+     * 密码条滚动线程
+     * @author zr
+     *
+     */
     private class ScrollRunnable implements Runnable {
         WheelView mWheelView;
 
@@ -129,6 +134,11 @@ public class WheelViewPasswordActivity extends Activity {
         }
     }
 
+    /**
+     * 密码栏adapter
+     * @author zr
+     *
+     */
     private class NumberAdapter extends BaseAdapter {
         int mHeight = 50;
 
