@@ -1,0 +1,2 @@
+# WheelViewDemo
+基于gallery实现类似IOS的WheelView控件效果
